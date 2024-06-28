@@ -29,10 +29,11 @@ There is also a simple cli utility which can be installed via
 cargo install lddtree
 ```
 
-Usage: `lddtree <pathname> [root]`
+Usage: `lddtree <pathname> [root] [library path...]`
 
 * `pathname` is the path to a linux shared library.
 * `root` is an optional path to a sysroot directory.
+* `library path` is any number of additional search paths.
 
 ## License
 
